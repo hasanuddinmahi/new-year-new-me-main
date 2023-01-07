@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+/* header */
 
 header {
   background-image: url(../images/banner/banner2.png);
@@ -37,10 +38,13 @@ header {
   cursor: pointer;
 }
 
+/* all section */
 
 section {
   margin-top: 130px;
 }
+
+/* failure */
 
 .failure-section {
   margin-left: 206px;
@@ -63,10 +67,19 @@ section {
 
 .failure-description {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  list-style: disc;
+}
+
+/* plans */
+
 .plans {
-    font-size: 30px;
+  font-size: 30px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -93,6 +106,63 @@ section {
   font-size: 18px;
 }
 
+/* new section */
+.work-section {
+  margin-left: 200px;
+  width: 80%;
+  height: 500px;
+  box-shadow: 15px 5px 5px 15px rgba(0, 0, 0, 0.283);
+  border-radius: 15px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+}
+
+.work-details {
+  padding: 0 200px 0 150px;
+}
+
+.work-topic{
+margin-bottom: 10px;
+font-weight: 800;
+color: #757575;
+}
+
+.work-title {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.work-description {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #757575
+  ;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  list-style: disc;
+}
+
+#btn-consultation{
+margin-top: 20px;
+}
+
+.work-img {
+  width: 500px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 10%;
+}
+
+
+/* positive */
+
 .positive-section {
   margin-left: 230px;
   background-image: linear-gradient(
@@ -110,7 +180,6 @@ section {
 
 .positive-details {
   padding: 60px 750px 40px 65px;
-  
 }
 
 .positive-title {
@@ -119,11 +188,12 @@ section {
   color: white;
 }
 
-#btn-call{
-background-color: white;
-color: rgb(235, 95, 8);
+#btn-call {
+  background-color: white;
+  color: rgb(235, 95, 8);
 }
 
+/* footer */
 footer {
   margin-top: 130px;
   height: 500px;
@@ -132,49 +202,48 @@ footer {
   align-items: center;
 }
 
-.future-details{
-    color: white;
-   padding: 0 200px 0 200px;
+.future-details {
+  color: white;
+  padding: 0 200px 0 200px;
 }
 
-.future-description{
-    margin-top: 20px;
-    font-size: 18px;
-    margin-bottom: 20px;
+.future-description {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.contact{
-    margin-bottom: 10px;
-    font-size: 18px;
+.contact {
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-.social-img{
-    margin-left: 10px;
+.social-img {
+  margin-left: 10px;
 }
 
-.subscribe-details{
-    color: white;
-    padding: 0 300px 0 200px;
+.subscribe-details {
+  color: white;
+  padding: 0 300px 0 200px;
 }
 
-.subscribe-title{
- font-size: 25px;
- margin-bottom: 20px;
+.subscribe-title {
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
-input{
-    margin-bottom: 20px;
-    padding: 15px;
-    width: 300px;
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 18px;
+input {
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 300px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
 }
 
-#btn-subscribe{
-    background-color: white;
-    color: rgb(235, 95, 8);
+#btn-subscribe {
+  background-color: white;
+  color: rgb(235, 95, 8);
 }
- 
