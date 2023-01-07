@@ -170,6 +170,7 @@ input{
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+    font-size: 18px;
 }
 
 #btn-subscribe{
